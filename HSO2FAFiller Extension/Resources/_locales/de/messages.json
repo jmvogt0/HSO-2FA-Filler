@@ -1,10 +1,10 @@
 {
     "extension_name": {
-        "message": "HSO2FAFiller Extension",
+        "message": "HSO 2 Faktor Erweiterung",
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "This is HSO2FAFiller Extension. You should tell us what your extension does here.",
-        "description": "Description of what the extension does."
+        "message": "Das ist die HSO 2 Faktor Erweiterung. Sie ermöglicht das automatisierte einfügen der TOTP Pin.",
+        "description": "Diese Erweiterung modifiziert während des Anmeldeprozesses das Formular, sodass die TOTP Pin automatisch eingefüllt werden kann."
     }
 }

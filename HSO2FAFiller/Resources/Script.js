@@ -1,9 +1,9 @@
 function show(enabled, useSettingsInsteadOfPreferences) {
     if (useSettingsInsteadOfPreferences) {
-        document.getElementsByClassName('state-on')[0].innerText = "HSO2FAFiller’s extension is currently on. You can turn it off in the Extensions section of Safari Settings.";
-        document.getElementsByClassName('state-off')[0].innerText = "HSO2FAFiller’s extension is currently off. You can turn it on in the Extensions section of Safari Settings.";
-        document.getElementsByClassName('state-unknown')[0].innerText = "You can turn on HSO2FAFiller’s extension in the Extensions section of Safari Settings.";
-        document.getElementsByClassName('open-preferences')[0].innerText = "Quit and Open Safari Settings…";
+        document.getElementsByClassName('state-on')[0].innerText = "HSO 2 Faktor Erweiterung ist aktuell aktiviert. Du kannst sie in den Einstellungen von Safari deaktivieren.";
+        document.getElementsByClassName('state-off')[0].innerText = "HSO 2 Faktor Erweiterung ist aktuell deaktiviert. Du kannst sie in den Einstellungen von Safari aktivieren.";
+        document.getElementsByClassName('state-unknown')[0].innerText = "Du kannst HSO 2 Faktor Erweiterung in den Einstellungen von Safari aktivieren.";
+        document.getElementsByClassName('open-preferences')[0].innerText = "Beenden und Einstellungen von Safari öffnen";
     }
 
     if (typeof enabled === "boolean") {

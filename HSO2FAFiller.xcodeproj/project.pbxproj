@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9F14A3352C2B618D00A8C79F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F14A3342C2B618D00A8C79F /* AppDelegate.swift */; };
 		9F14A3392C2B618D00A8C79F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9F14A3382C2B618D00A8C79F /* Base */; };
-		9F14A33B2C2B618D00A8C79F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F14A33A2C2B618D00A8C79F /* Icon.png */; };
 		9F14A33D2C2B618D00A8C79F /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 9F14A33C2C2B618D00A8C79F /* Style.css */; };
 		9F14A33F2C2B618D00A8C79F /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 9F14A33E2C2B618D00A8C79F /* Script.js */; };
 		9F14A3412C2B618D00A8C79F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F14A3402C2B618D00A8C79F /* ViewController.swift */; };
@@ -22,9 +21,8 @@
 		9F14A35A2C2B618E00A8C79F /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F14A3592C2B618E00A8C79F /* manifest.json */; };
 		9F14A35C2C2B618E00A8C79F /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 9F14A35B2C2B618E00A8C79F /* background.js */; };
 		9F14A35E2C2B618E00A8C79F /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 9F14A35D2C2B618E00A8C79F /* content.js */; };
-		9F14A3602C2B618E00A8C79F /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 9F14A35F2C2B618E00A8C79F /* popup.html */; };
-		9F14A3622C2B618E00A8C79F /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 9F14A3612C2B618E00A8C79F /* popup.css */; };
-		9F14A3642C2B618E00A8C79F /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 9F14A3632C2B618E00A8C79F /* popup.js */; };
+		9F834E8C2CEE312F00FDC8DF /* HSO-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F834E8B2CEE312F00FDC8DF /* HSO-Icon.png */; };
+		9F834E8E2CEE3B0E00FDC8DF /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F834E8D2CEE3B0E00FDC8DF /* AppIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +53,6 @@
 		9F14A3312C2B618D00A8C79F /* HSO2FAFiller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSO2FAFiller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F14A3342C2B618D00A8C79F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F14A3382C2B618D00A8C79F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		9F14A33A2C2B618D00A8C79F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		9F14A33C2C2B618D00A8C79F /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		9F14A33E2C2B618D00A8C79F /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		9F14A3402C2B618D00A8C79F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,11 +67,10 @@
 		9F14A3592C2B618E00A8C79F /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		9F14A35B2C2B618E00A8C79F /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
 		9F14A35D2C2B618E00A8C79F /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		9F14A35F2C2B618E00A8C79F /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		9F14A3612C2B618E00A8C79F /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		9F14A3632C2B618E00A8C79F /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		9F14A3652C2B618E00A8C79F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F14A3662C2B618E00A8C79F /* HSO2FAFiller_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HSO2FAFiller_Extension.entitlements; sourceTree = "<group>"; };
+		9F834E8B2CEE312F00FDC8DF /* HSO-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HSO-Icon.png"; sourceTree = "<group>"; };
+		9F834E8D2CEE3B0E00FDC8DF /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,9 +127,10 @@
 			isa = PBXGroup;
 			children = (
 				9F14A3372C2B618D00A8C79F /* Main.html */,
-				9F14A33A2C2B618D00A8C79F /* Icon.png */,
+				9F834E8B2CEE312F00FDC8DF /* HSO-Icon.png */,
 				9F14A33C2C2B618D00A8C79F /* Style.css */,
 				9F14A33E2C2B618D00A8C79F /* Script.js */,
+				9F834E8D2CEE3B0E00FDC8DF /* AppIcon.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -157,9 +154,6 @@
 				9F14A3592C2B618E00A8C79F /* manifest.json */,
 				9F14A35B2C2B618E00A8C79F /* background.js */,
 				9F14A35D2C2B618E00A8C79F /* content.js */,
-				9F14A35F2C2B618E00A8C79F /* popup.html */,
-				9F14A3612C2B618E00A8C79F /* popup.css */,
-				9F14A3632C2B618E00A8C79F /* popup.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -245,12 +239,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F14A33B2C2B618D00A8C79F /* Icon.png in Resources */,
 				9F14A33F2C2B618D00A8C79F /* Script.js in Resources */,
 				9F14A3392C2B618D00A8C79F /* Base in Resources */,
 				9F14A33D2C2B618D00A8C79F /* Style.css in Resources */,
 				9F14A3462C2B618E00A8C79F /* Assets.xcassets in Resources */,
 				9F14A3442C2B618D00A8C79F /* Base in Resources */,
+				9F834E8C2CEE312F00FDC8DF /* HSO-Icon.png in Resources */,
+				9F834E8E2CEE3B0E00FDC8DF /* AppIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,13 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F14A35C2C2B618E00A8C79F /* background.js in Resources */,
-				9F14A3622C2B618E00A8C79F /* popup.css in Resources */,
-				9F14A3602C2B618E00A8C79F /* popup.html in Resources */,
 				9F14A3582C2B618E00A8C79F /* images in Resources */,
 				9F14A35A2C2B618E00A8C79F /* manifest.json in Resources */,
 				9F14A3562C2B618E00A8C79F /* _locales in Resources */,
 				9F14A35E2C2B618E00A8C79F /* content.js in Resources */,
-				9F14A3642C2B618E00A8C79F /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,15 +497,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = HSO2FAFiller/HSO2FAFiller.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 8K3HXH5R8W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = HSO2FAFiller;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "HSO 2 Faktor Erweiterung";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Jan Vogt";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -521,7 +515,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.3;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -530,6 +524,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Vogtjanm.HSO2FAFiller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -541,15 +536,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = HSO2FAFiller/HSO2FAFiller.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 8K3HXH5R8W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = HSO2FAFiller;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "HSO 2 Faktor Erweiterung";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Jan Vogt";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -557,7 +554,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.3;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -566,6 +563,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Vogtjanm.HSO2FAFiller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
